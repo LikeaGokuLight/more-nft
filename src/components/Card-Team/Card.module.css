@@ -1,0 +1,61 @@
+
+
+.container {
+    background-color: #0e1c36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 0 1.5rem;
+    box-shadow: rgb(24, 47, 199) 0px 4px 12px;
+}
+
+.card {
+    background-color: #0e1c36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 1.5rem;
+}
+
+.container:hover {
+    transition: 0.3s;
+    transform: scale(1.02);
+}
+
+.container:last-child {
+
+}
+
+.container:last-child img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.image {
+
+}
+
+.card-name {
+    margin: 1rem 0;
+}
+
+.card-job {
+
+}
+
+.social-icons {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.social-icons div {
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
