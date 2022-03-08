@@ -54,6 +54,11 @@
     justify-content: space-between;
 }
 
+svg:hover {
+    color: #40f99b!important;
+    transform: scale(1.1);
+}
+
 .social-icons div {
     padding: 0 0.5rem;
     font-size: 1.5rem;
