@@ -47,12 +47,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        disableSwitch: true,
+      },
       navbar: {
         title: '',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
-          srcDark: "img/logo.svg"
         },
         items: [
           {
@@ -99,6 +101,15 @@ const config = {
               {
                 label: 'Guides',
                 to: '/docs-guides/welcome',
+              },
+            ]
+          },
+          {
+            title: 'Team',
+            items: [
+              {
+                label: 'Team',
+                to: '/ourTeam',
               },
             ]
           },

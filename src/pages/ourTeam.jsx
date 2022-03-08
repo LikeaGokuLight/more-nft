@@ -31,7 +31,7 @@ const OurTeam = () => {
                 </div>
 
                 <div className={styles['title-team']}>
-                    <h1>Adviser</h1>
+                    <h1>Advisor</h1>
                 </div>
                 <div className={styles['container-card']}>
                     {

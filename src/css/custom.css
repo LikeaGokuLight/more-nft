@@ -29,10 +29,12 @@
 }
 
 .navbar {
+  padding: 2rem 2rem 5rem 2rem;
   background: #0E1C36;
 }
 
 .navbar__item {
+  font-size: 1.5rem;
   color: white;
 }
 
@@ -61,6 +63,10 @@ svg {
   background: radial-gradient(circle, rgba(36,123,160,1) 25%, rgba(14,28,54,1) 80%);
 }
 
+.navbar__logo {
+
+}
+
 .menu svg {
   color: white;
 }
@@ -84,6 +90,11 @@ svg {
 
 .navbar__search-input {
   margin: 0 1.5rem;
+  padding: 1.5rem;
+}
+
+::placeholder {
+  padding: 1rem;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
