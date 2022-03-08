@@ -27,9 +27,9 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           routeBasePath: '/',
-          editLocalizedFiles: true,
-          editCurrentVersion: true,
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editLocalizedFiles: false,
+          editCurrentVersion: false,
+          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
