@@ -29,12 +29,12 @@
 }
 
 .navbar {
-  padding: 2rem 2rem 5rem 2rem;
+  padding: 1rem 1rem 4rem 1rem;
   background: #0E1C36;
 }
 
 .navbar__item {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: white;
 }
 
@@ -54,6 +54,17 @@ svg {
 
 .table-of-contents__link {
   color: white;
+}
+
+/* copyright*/
+.copyright__link {
+  text-decoration: dotted;
+  color: red;
+  padding: 0.5rem;
+}
+
+.copyright__link a {
+  text-decoration: none;
 }
 
 .menu {
@@ -92,6 +103,11 @@ svg {
   margin: 0 1.5rem;
   padding: 1.5rem;
 }
+
+.navbar__search-input:hover, .navbar__search-input:active {
+  border: 1px #40f99b solid;
+}
+
 
 ::placeholder {
   padding: 1rem;
