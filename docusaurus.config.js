@@ -6,14 +6,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const path = require('path');
 
-const customFooter = `<div style={{textDecoration:'none'}}>
-    <span class="copyright__link">
-         <a  target="_blank" href="https://www.morenft.net/">
-            <img width="90px" src="/img/logo-more-nft.svg" alt="logo">
-        </a>
-    </span>
-    Copyright © ${new Date().getFullYear()} made by Vitali Passaro with &#128154; for MORE NFT DOCS.
-</div>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -25,9 +17,7 @@ const config = {
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'more-nft-docs', // Usually your repo name.
-    // plugins: [path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'), 'docusaurus-plugin-sass'],
-    // plugins: ['docusaurus-plugin-sass'],
+    projectName: 'more-nft-docs', // Usually your repo name
     plugins: [
         path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'),
         'docusaurus-plugin-sass'
@@ -161,7 +151,6 @@ const config = {
                         ],
                     },
                 ],
-                copyright: customFooter,
                 // copyright: `Copyright © ${new Date().getFullYear()} made by Vitali Passaro with &#128154; for MORE NFT DOCS.`,
             },
             prism: {

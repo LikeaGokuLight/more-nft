@@ -220,17 +220,17 @@ const linksCol3 = [
     {
         type: 'Link',
         title: 'FAQs',
-        path: '/faqs'
+        path: 'https://www.morenft.net/'
     },
     {
         type: 'Link',
         title: 'Contact us',
-        path: '/Contact'
+        path: 'https://www.morenft.net/'
     },
     {
         type: 'Link',
         title: 'Become a creator',
-        path: '/creator'
+        path: 'https://www.morenft.net/'
     },
 ]
 
@@ -238,17 +238,17 @@ const linksCol4 = [
     {
         type: 'Link',
         title: 'Terms of service',
-        path: '/terms'
+        path: 'https://www.morenft.net/'
     },
     {
         type: 'Link',
         title: 'Privacy policy',
-        path: '/privacy'
+        path: 'https://www.morenft.net/'
     },
     {
         type: 'Link',
         title: 'Cookie policy',
-        path: '/cookie'
+        path: 'https://www.morenft.net/'
     },
 ]
 
