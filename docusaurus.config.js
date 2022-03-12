@@ -26,7 +26,12 @@ const config = {
     favicon: 'img/favicon.ico',
     organizationName: 'facebook', // Usually your GitHub org/user name.
     projectName: 'more-nft-docs', // Usually your repo name.
-    plugins: [path.resolve(__dirname, './node_modules/docusaurus-lunr-search/')],
+    // plugins: [path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'), 'docusaurus-plugin-sass'],
+    // plugins: ['docusaurus-plugin-sass'],
+    plugins: [
+        path.resolve(__dirname, './node_modules/docusaurus-lunr-search/'),
+        'docusaurus-plugin-sass'
+    ],
     presets: [
         [
             'classic',
@@ -47,7 +52,7 @@ const config = {
                         'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
+                    customCss: require.resolve('./src/css/custom.scss'),
                 },
             }),
         ],
@@ -63,7 +68,7 @@ const config = {
                 title: '',
                 logo: {
                     alt: 'My Site Logo',
-                    src: 'img/logo.svg',
+                    src: '/img/Logo_per_doc.svg',
                 },
                 items: [
                     {
@@ -151,7 +156,7 @@ const config = {
                             },
                             {
                                 label: 'Blog',
-                                href: 'https://medium.com/coinmonks/6-more-nft-podcasts-for-your-2021-playlist-1a0f761e6a2f',
+                                href: 'https://morenft.medium.com/',
                             },
                         ],
                     },

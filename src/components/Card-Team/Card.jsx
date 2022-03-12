@@ -1,6 +1,6 @@
 import React from "react";
 // CSS MODULE
-import styles from './Card.module.css';
+import styles from './Card.module.scss';
 // REACT ICONS
 import {AiOutlineInstagram, AiFillGithub, } from 'react-icons/ai';
 
@@ -12,7 +12,7 @@ const Card = ({ name, job, img, github, instagram }) => {
             <div className={styles.card}>
                 <img className={styles.image} src={img} alt={`${name} picture`}/>
 
-                <p className={styles['card-name']}>{ name }</p>
+                <h1 className={styles['card-name']}>{ name }</h1>
 
                 <p className={styles['card-job']}>{ job }</p>
 
@@ -30,3 +30,11 @@ const Card = ({ name, job, img, github, instagram }) => {
 }
 
 export default Card;
+
+// const Card = () => {
+//     return(
+//         <div></div>
+//     )
+// }
+//
+// export default Card;

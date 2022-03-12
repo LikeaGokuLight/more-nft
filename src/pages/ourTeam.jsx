@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Card from "../components/Card-Team/Card";
 // CSS MODULE
-import styles from './ourTeam.module.css';
+import styles from './ourTeam.module.scss';
 // UUID
 import { v4 as uuidv4 } from 'uuid';
 // DATA TEAM
@@ -67,3 +67,14 @@ const OurTeam = () => {
 }
 
 export default OurTeam;
+
+
+// const OurTeam = () => {
+//     return(
+//         <div >
+//
+//         </div>
+//     )
+// }
+//
+// export default OurTeam;

@@ -1,0 +1,225 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/*:root {*/
+/*  --ifm-color-primary: #2e8555;*/
+/*  --ifm-color-primary-dark: #29784c;*/
+/*  --ifm-color-primary-darker: #277148;*/
+/*  --ifm-color-primary-darkest: #205d3b;*/
+/*  --ifm-color-primary-light: #33925d;*/
+/*  --ifm-color-primary-lighter: #359962;*/
+/*  --ifm-color-primary-lightest: #3cad6e;*/
+/*  --ifm-code-font-size: 95%;*/
+/*}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+@font-face {
+  font-family: "MonumentExtended-Black-H1";
+  src: url('./fonts/MonumentExtended-Black.otf') format("woff2"),
+  url("./fonts/MonumentExtended-Black.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonumentExtended-Regular-H2";
+  src: url('./fonts/MonumentExtended-Regular.otf') format("woff2"),
+  url("./fonts/MonumentExtended-Regular.otf") format("woff");
+  font-style: normal;
+}
+
+:root {
+  //--ifm-color-primary: #40f99b;
+  //--ifm-color-primary-dark: #22f88b;
+  //--ifm-color-primary-darker: #12f883;
+  //--ifm-color-primary-darkest: #07d46c;
+  //--ifm-color-primary-light: #5efaab;
+  //--ifm-color-primary-lighter: #6efab3;
+  //--ifm-color-primary-lightest: #9bfccb;
+  --ifm-color-primary: #ffffff;
+  --ifm-color-primary-dark: #e6e6e6;
+  --ifm-color-primary-darker: #d9d9d9;
+  --ifm-color-primary-darkest: #b3b3b3;
+  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+
+
+
+
+  background: radial-gradient(circle, rgba(36,123,160,1) 25%, rgba(14,28,54,1) 80%);
+}
+
+.navbar {
+  padding: 1rem 1rem 4rem 1rem;
+  background: #0E1C36;
+}
+
+.navbar__item {
+  font-size: 1rem;
+  color: #b1b0b0;
+  line-height: 24px;
+}
+
+.navbar__link--active {
+  color: #ffffff;
+}
+
+.navbar__link:hover  {
+  color: #ffffff;
+}
+
+h3, h4, h5, h6, p {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+h2 {
+  color: white;
+  font-family: 'MonumentExtended-Regular-H2', sans-serif;
+  font-variant-caps: normal;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #ead637 ;
+  font-family: 'MonumentExtended-Black-H1', sans-serif;
+  text-transform: uppercase;
+}
+
+svg {
+  color: white;
+}
+
+
+.table-of-contents__link {
+  color: white;
+}
+
+/* copyright*/
+.copyright__link {
+  text-decoration: dotted;
+  color: red;
+  padding: 0.5rem;
+}
+
+.copyright__link a {
+  text-decoration: none;
+}
+
+.menu {
+  //background: linear-gradient(90deg, rgba(14, 28, 54, 1) 20%, rgba(24, 74, 106, 1) 87%);
+  //background: #0E1C36;
+  //background-color: #0E1C36;
+  //background: linear-gradient(180deg, rgba(14,28,54,1) 10%, rgba(36,123,160,0.5) 98%);
+  background: rgba(14,28,54, 0.5);
+}
+.navbar-sidebar {
+  //background: radial-gradient(circle, rgba(36,123,160,1) 25%, rgba(14,28,54,1) 80%);
+  //background: #0E1C36;
+  //opacity: 50%;
+  background-color: #0E1C36;
+  //opacity: 0.2;
+}
+
+.navbar__logo {
+
+}
+
+.menu svg {
+  color: white;
+}
+
+.menu__link {
+  color: white;
+  padding: 0 3.5rem;
+  opacity: 1;
+
+}
+
+.footer {
+  background: #0E1C36;
+}
+
+.footer__copyright {
+  margin-top: 2.5rem;
+}
+
+.navbar-sidebar__back {
+  color: white;
+}
+
+.navbar__search-input {
+  margin: 0 1.5rem;
+  padding: 1.5rem;
+}
+
+.navbar__search-input:hover, .navbar__search-input:active {
+  border: 1px #40f99b solid;
+}
+
+
+::placeholder {
+  padding: 1rem;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+/*[data-theme='dark'] {*/
+/*  --ifm-color-primary: #25c2a0;*/
+/*  --ifm-color-primary-dark: #21af90;*/
+/*  --ifm-color-primary-darker: #1fa588;*/
+/*  --ifm-color-primary-darkest: #1a8870;*/
+/*  --ifm-color-primary-light: #29d5b0;*/
+/*  --ifm-color-primary-lighter: #32d8b4;*/
+/*  --ifm-color-primary-lightest: #4fddbf;*/
+/*}*/
+
+[data-theme='dark'] {
+  //--ifm-color-primary: #25c2a0;
+  //--ifm-color-primary-dark: #21af90;
+  //--ifm-color-primary-darker: #1fa588;
+  //--ifm-color-primary-darkest: #1a8870;
+  //--ifm-color-primary-light: #29d5b0;
+  //--ifm-color-primary-lighter: #32d8b4;
+  //--ifm-color-primary-lightest: #4fddbf;
+
+  --ifm-color-primary: #ffffff;
+  --ifm-color-primary-dark: #e6e6e6;
+  --ifm-color-primary-darker: #d9d9d9;
+  --ifm-color-primary-darkest: #b3b3b3;
+  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+
+  //background: radial-gradient(circle, rgba(36,123,160,1) 25%, rgba(14,28,54,1) 80%);
+  //background: radial-gradient(circle, rgba(36,123,160,0.5973739837731968) 0%, rgba(14,28,54,1) 100%);
+  background: linear-gradient(180deg, rgba(14,28,54,1) 10%, rgba(36,123,160,0.5) 98%);
+
+  color: #ffffff;
+}
+
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
