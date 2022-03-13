@@ -1,25 +1,16 @@
 ---
     sidebar_position: 1
-    title: Welcome
-    sidebar_label: Welcome
-    slug: /
+    title: Welcome to MoreNFT
+    sidebar_label: Welcome to MoreNFT
 ---
 
-## Welcome 👀💎
+MoreNFT is a user-centric multichain NFT Marketplace.
 
-## Section About 
+## Mission
+The platform wants to create an ecosystem between Creators, Stars and Brands to develop projects that
+exploit the potential of NFTs, granting investment opportunities and new services to the entire community.
 
-## 👥 Using Typesense DocSearch
+## Vision
+To create an ecosystem based on a community economy concept, providing tools and knowledge to
+understand, use and benefit from the change brought by the Blockchain and NFTs.
 
-**Typesense**d DocSearch works similar to Algolia DocSearch, except that your website is indexed into a Typesense search cluster.
-
-Typesense is an open source instant-search engine that you can either:
-
-- Self-Host on your own servers or
-- Use the Managed Typesense Cloud service.
-- Similar to Algolia DocSearch, there are two components:
-
-typesense-docsearch-scraper - which scrapes your website and indexes the data in your Typesense cluster.
-
-docusaurus-theme-search-typesense - a search bar UI component to add to your website.
-### Read a step-by-step walk-through of how to run typesense-docsearch-scraper here and how to install the Search Bar in your Docusaurus Site here.

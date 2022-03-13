@@ -214,7 +214,7 @@ const FooterCol = ({heading = 'need heading', links}) => {
 const linksCol3 = [
     {
         type: 'a',
-        title: 'Back to MoreNFT',
+        title: 'Back to morenft',
         path: 'https://www.morenft.net/'
     },
     {

@@ -6,6 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const path = require('path');
 
+const math = require('remark-math')
+const katex = require('rehype-katex')
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -33,6 +36,8 @@ const config = {
                     routeBasePath: '/',
                     editLocalizedFiles: false,
                     editCurrentVersion: false,
+                    remarkPlugins: [math],
+                    rehypePlugins: [katex],
                     // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 blog: {
@@ -47,7 +52,15 @@ const config = {
             }),
         ],
     ],
-
+    stylesheets: [
+        {
+            href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+            type: 'text/css',
+            integrity:
+                'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+            crossorigin: 'anonymous',
+        },
+    ],
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
