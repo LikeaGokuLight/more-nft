@@ -66,6 +66,7 @@ const config = {
         ({
             colorMode: {
                 disableSwitch: true,
+                defaultMode: 'dark',
             },
             navbar: {
                 title: '',
