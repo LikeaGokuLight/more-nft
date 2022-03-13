@@ -4,6 +4,8 @@
     sidebar_label: MRN Release Schedule
 ---
 
+![LooksRare Logo Downloads](/img/docs-about/release_schedule.png)
+
 | **Allocation**       | **Description**                                                                                                                       |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Team                 | Locked until the sixth month. From the seventh month the tokens willbe released linearly on a monthly basis until month 24 is reached | 

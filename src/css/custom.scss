@@ -50,10 +50,7 @@
   --ifm-color-primary-lighter: #ffffff;
   --ifm-color-primary-lightest: #ffffff;
 
-
-
-
-  background: radial-gradient(circle, rgba(36,123,160,1) 25%, rgba(14,28,54,1) 80%);
+  background: linear-gradient(180deg, rgba(14,28,54,1) 10%, rgba(36,123,160,0.5) 98%);
 }
 
 .navbar {

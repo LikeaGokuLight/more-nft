@@ -1,8 +1,7 @@
 ---
-    sidebar_position: 4
+    sidebar_position: 6
     title: Market Overview
     sidebar_label: Market Overview
-    slug: /
 ---
 
 Until now, the word NFT has often been associated with the speculative effect behind digital works of art.

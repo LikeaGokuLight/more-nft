@@ -2,6 +2,7 @@
     sidebar_position: 1
     title: Welcome to MoreNFT
     sidebar_label: Welcome to MoreNFT
+    slug: /
 ---
 
 MoreNFT is a user-centric multichain NFT Marketplace.

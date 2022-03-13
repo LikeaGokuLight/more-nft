@@ -9,9 +9,6 @@
 - IDO Price: $0.44
 - Total Supply: 200.000.000
 - Circulating Supply at TGE: 23.476.853
--
-
-![LooksRare Logo Downloads](/img/docs-about/token_supply.png)
 
 ![LooksRare Logo Downloads](/img/docs-about/token_supply2.png)
 
