@@ -167,8 +167,9 @@ const config = {
                 // copyright: `Copyright © ${new Date().getFullYear()} made by Vitali Passaro with &#128154; for MORE NFT DOCS.`,
             },
             prism: {
-                theme: lightCodeTheme,
-                // darkTheme: darkCodeTheme,
+                // theme: lightCodeTheme,
+                theme: darkCodeTheme,
+                darkTheme: darkCodeTheme,
             },
         }),
 };
