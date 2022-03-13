@@ -42,6 +42,7 @@
   //--ifm-color-primary-light: #5efaab;
   //--ifm-color-primary-lighter: #6efab3;
   //--ifm-color-primary-lightest: #9bfccb;
+
   --ifm-color-primary: #ffffff;
   --ifm-color-primary-dark: #e6e6e6;
   --ifm-color-primary-darker: #d9d9d9;
@@ -74,7 +75,7 @@
 
 h3, h4, h5, h6, p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  color: white;
+  color: white !important;
   font-weight: lighter;
 }
 
@@ -199,13 +200,21 @@ svg {
   //--ifm-color-primary-lighter: #32d8b4;
   //--ifm-color-primary-lightest: #4fddbf;
 
-  --ifm-color-primary: #ffffff;
-  --ifm-color-primary-dark: #e6e6e6;
-  --ifm-color-primary-darker: #d9d9d9;
-  --ifm-color-primary-darkest: #b3b3b3;
-  --ifm-color-primary-light: #ffffff;
-  --ifm-color-primary-lighter: #ffffff;
-  --ifm-color-primary-lightest: #ffffff;
+  --ifm-color-primary: #40f99b;
+  --ifm-color-primary-dark: #22f88b;
+  --ifm-color-primary-darker: #12f883;
+  --ifm-color-primary-darkest: #07d46c;
+  --ifm-color-primary-light: #5efaab;
+  --ifm-color-primary-lighter: #6efab3;
+  --ifm-color-primary-lightest: #9bfccb;
+
+  //--ifm-color-primary: #ffffff;
+  //--ifm-color-primary-dark: #e6e6e6;
+  //--ifm-color-primary-darker: #d9d9d9;
+  //--ifm-color-primary-darkest: #b3b3b3;
+  //--ifm-color-primary-light: #ffffff;
+  //--ifm-color-primary-lighter: #ffffff;
+  //--ifm-color-primary-lightest: #ffffff;
 
   //background: radial-gradient(circle, rgba(36,123,160,1) 25%, rgba(14,28,54,1) 80%);
   //background: radial-gradient(circle, rgba(36,123,160,0.5973739837731968) 0%, rgba(14,28,54,1) 100%);
