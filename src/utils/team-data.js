@@ -3,82 +3,102 @@
 export const teamData = [
     {
         name: 'Vincenzo Cirillo',
-        job: 'Chief Executive Officer',
+        title: 'Chief Executive Officer',
         img: '/img/team-pictures/solo-avatar.jpg',
-        // github: 'https://github.com/reactjs',
-        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en'
+        github: 'https://github.com/reactjs',
+        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en',
+        facebook: 'https://www.facebook.com/morenftofficial',
+        twitter: 'https://twitter.com/MoreNFT_'
     },
 
     {
         name: 'Antonio Russo',
-        job: 'Chief Technical Officer',
+        title: 'Chief Technical Officer',
         img: '/img/team-pictures/solo-avatar.jpg',
         github: 'https://github.com/reactjs',
-        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en'
+        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en',
+        facebook: 'https://www.facebook.com/morenftofficial',
+        twitter: 'https://twitter.com/MoreNFT_'
     },
 
     {
         name: 'Fulvio Vinci',
-        job: 'Head of Business Dev',
+        title: 'Head of Business Dev',
         img: '/img/team-pictures/solo-avatar.jpg',
         github: 'https://github.com/reactjs',
-        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en'
+        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en',
+        facebook: 'https://www.facebook.com/morenftofficial',
+        twitter: 'https://twitter.com/MoreNFT_'
     },
 
     {
         name: 'Francesco Moriello',
-        job: 'Chief Marketing Officer',
+        title: 'Chief Marketing Officer',
         img: '/img/team-pictures/solo-avatar.jpg',
         github: 'https://github.com/reactjs',
-        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en'
+        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en',
+        facebook: 'https://www.facebook.com/morenftofficial',
+        twitter: 'https://twitter.com/MoreNFT_'
     },
 
     {
         name: 'Umberto Ciaramella',
-        job: 'Chief Creative Officer',
+        title: 'Chief Creative Officer',
         img: '/img/team-pictures/solo-avatar.jpg',
         github: 'https://github.com/reactjs',
-        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en'
+        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en',
+        facebook: 'https://www.facebook.com/morenftofficial',
+        twitter: 'https://twitter.com/MoreNFT_'
     },
 
     {
         name: 'Vincenzo Nocchetti',
-        job: 'Enterprise Architect',
+        title: 'Enterprise Architect',
         img: '/img/team-pictures/solo-avatar.jpg',
         github: 'https://github.com/reactjs',
-        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en'
+        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en',
+        facebook: 'https://www.facebook.com/morenftofficial',
+        twitter: 'https://twitter.com/MoreNFT_'
     },
 
     {
         name: 'Francesco Colamonici',
-        job: 'Enterprise Architect',
+        title: 'Enterprise Architect',
         img: '/img/team-pictures/solo-avatar.jpg',
         github: 'https://github.com/reactjs',
-        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en'
+        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en',
+        facebook: 'https://www.facebook.com/morenftofficial',
+        twitter: 'https://twitter.com/MoreNFT_'
     },
 
     {
         name: 'Jerry Fanelli',
-        job: 'Blockchain Specialist',
+        title: 'Blockchain Specialist',
         img: '/img/team-pictures/solo-avatar.jpg',
         github: 'https://github.com/reactjs',
-        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en'
+        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en',
+        facebook: 'https://www.facebook.com/morenftofficial',
+        twitter: 'https://twitter.com/MoreNFT_'
     },
 
     {
         name: 'Davide Valente',
-        job: 'Talent Manger',
+        title: 'Talent Manger',
         img: '/img/team-pictures/solo-avatar.jpg',
         github: 'https://github.com/reactjs',
-        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en'
+        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en',
+        facebook: 'https://www.facebook.com/morenftofficial',
+        twitter: 'https://twitter.com/MoreNFT_'
     },
 
     {
         name: 'Fabrizio De Marinis ',
-        job: 'Product Manager',
+        title: 'Product Manager',
         img: '/img/team-pictures/solo-avatar.jpg',
         github: 'https://github.com/reactjs',
-        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en'
+        instagram: 'https://www.instagram.com/solo_leveling_official/?hl=en',
+        facebook: 'https://www.facebook.com/morenftofficial',
+        twitter: 'https://twitter.com/MoreNFT_'
     },
 
 ]
