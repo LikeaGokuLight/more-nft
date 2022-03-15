@@ -202,3 +202,10 @@ svg {
 //[data-theme='dark'] .docusaurus-highlight-code-line {
 //  background-color: rgba(0, 0, 0, 0.3);
 //}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
