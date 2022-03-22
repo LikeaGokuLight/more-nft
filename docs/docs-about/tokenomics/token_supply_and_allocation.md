@@ -4,11 +4,11 @@
     sidebar_label: Token supply and allocation
 ---
 
-- Token Ticker: MRN
-- Type: ERC20
-- IDO Price: $0.44
-- Total Supply: 200.000.000
-- Circulating Supply at TGE: 23.476.853
+- **Token Ticker**: MRN
+- **Type**: ERC20
+- **IDO Price**: $0.44
+- **Total Supply**: 200,000,000
+- **Circulating Supply at TGE**: 23,476,853
 
 ![LooksRare Logo Downloads](/img/docs-about/token_supply2.png)
 
@@ -26,4 +26,3 @@
 | Trading rewards      | 30,80%                   | 61.600.000      |
 | Staking rewards      | 15,20%                   | 30.400.000      |
 | **Total supply**     | **100%**                 | **200.000.000** |
-

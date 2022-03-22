@@ -4,22 +4,20 @@
     sidebar_label: MRN Use-Case
 ---
 
-## Buy NFTs
+## 🛒🖼️ Buy NFTs
 
-With $ MRN you can buy and sell NFTs on MoreNFT.
+With **MRN** you can buy and sell NFTs on MoreNFT.
 
-## Token burn
+## 🔥 Token Burn
 
-Factory: 5% of the value of the sale of each single NFT will be burned in order to reduce the total amount of
+**Factory**: 5% of the value of the sale of each single NFT will be burned.
 
+**Marketplace**: 0.25% of each transaction is burned.
 
-Marketplace: 0.25% of each transaction goes to token burn.
+## 🙋🏼‍♂️ Become an Active Member
 
-## Become an active member
+MRN is a governance token required to participate in DAO initiatives.
 
-MRN becomes a governance token required to participate in DAO initiatives.
+## ⭐🏆 Staking & Trading Rewards
 
-## Staking & trading rewards
-Get additional MRNs by trading NFTs on the platform or stake your tokens. 
-
-
+Get additional **MRN**s by **trading** NFTs on the platform or by **staking** your tokens.
